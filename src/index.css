@@ -13,11 +13,11 @@ body {
 }
 
 input {
-  width: 70vw;
+  width: 60vw;
   height: 8vh;
   background: steelblue;
   color: #FFF;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   margin-top: 1rem;
 }
@@ -27,7 +27,7 @@ button {
   height: 8vh;
   background: red;
   color: #FFF;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   margin: 0 2rem;
 }
@@ -35,4 +35,9 @@ button {
 ::placeholder {
   color: #FFF;
   opacity: 0.75;
+}
+
+li {
+  list-style: none;
+  font-size: 25px;
 }
