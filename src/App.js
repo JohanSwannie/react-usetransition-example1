@@ -36,10 +36,10 @@ export default function App() {
         onChange={handleChange}
       />
       {isPending
-        ? " Input Loading now, please be patient..."
+        ? " Input Loading now, please be patient......."
         : array.map((element, index) => {
             return (
-              <div
+              <li
                 key={index}
                 style={{
                   fontSize: "60px",
@@ -48,7 +48,7 @@ export default function App() {
                 }}
               >
                 {element}
-              </div>
+              </li>
             );
           })}
     </div>
