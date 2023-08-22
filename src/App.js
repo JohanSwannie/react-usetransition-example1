@@ -37,20 +37,18 @@ export default function App() {
       />
       {isPending
         ? " Input Loading now, please be patient......."
-        : array.map((element, index) => {
-            return (
-              <li
-                key={index}
-                style={{
-                  fontSize: "60px",
-                  color: "red",
-                  fontFamily: "Tangerine",
-                }}
-              >
-                {element}
-              </li>
-            );
-          })}
+        : array.map((element, index) => (
+            <li
+              key={index}
+              style={{
+                fontSize: "60px",
+                color: "red",
+                fontFamily: "Tangerine",
+              }}
+            >
+              {element}
+            </li>
+          ))}
     </div>
   );
 }
